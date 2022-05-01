@@ -12,9 +12,10 @@
 </template>
 
 <script>
-const currencyFormatter = new Intl.NumberFormat("es-MX", {
+//PONER FORMATO DE MONEDA A EUROS.
+const currencyFormatter = new Intl.NumberFormat("es-ES", {
   style: "currency",
-  currency: "MXN",
+  currency: "EUR",
 });
 export default {
     props: {

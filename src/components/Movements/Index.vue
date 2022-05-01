@@ -46,5 +46,6 @@ const remove = (id) => {
   flex-direction: column;
   gap: 8px;
   overflow-y: scroll;
+  
 }
 </style>

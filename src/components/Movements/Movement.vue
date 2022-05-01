@@ -16,9 +16,9 @@
 
 <script setup>
 import { toRefs, defineProps, defineEmits, computed } from 'vue';
-const currencyFormatter = new Intl.NumberFormat("es-MX", {
+const currencyFormatter = new Intl.NumberFormat("es-ES", {
   style: "currency",
-  currency: "MXN",
+  currency: "EUR",
 });
 const props = defineProps({
     id: {
