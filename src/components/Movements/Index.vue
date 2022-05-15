@@ -38,7 +38,7 @@ const remove = (id) => {
 }
 .title {
   margin: 8px 16px 24px 16px;
-  color: var(--brand-blue);
+  color: blueviolet;
 }
 .content {
   max-height: 68vh;

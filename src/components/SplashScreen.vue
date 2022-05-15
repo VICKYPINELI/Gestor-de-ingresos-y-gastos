@@ -20,7 +20,7 @@ export default {
   height: 100vh;
 }
 h1 {
-  color: var(--brand-blue);
+  color: var(--brand-red);
 }
 h1 span {
   color: var(--brand-green);
